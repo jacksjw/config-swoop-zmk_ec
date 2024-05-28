@@ -241,23 +241,23 @@ ZMK_COMBO(caps, &caps_word, LM1 RM1, DEF, COMBO_TERM_SLOW)
                 med_layer {
                         display-name = "Med";
 // -----------------------------------------------------------------------------------------
-// tap      |   Q   |   W   |   E   |   R   |   T   |   |   R   |   M   |   H   |   S   |   V   |
+// tap      | RGBTG |   W   |   E   |   R   |   T   |   |   R   |   M   |   H   |   S   |   V   |
 // hold     |       |       |       |       |       |   |       |       |       |       |       |
 //          _____________________________________________________________________________________
-// tap      |   A   |   S   |   D   |   F   |   G   |   |   E   | PREV  | VOLD  | VOLU  | NEXT  |
-// hold     |       |  ALT  | CTRL  | SHFT  |       |   |       |       |       |       |       |
+// tap      | HUEIN | SATIN | BRIIN | SPIN  |  EFF  |   |   E   | PREV  | VOLD  | VOLU  | NEXT  |
+// hold     |       |       |       |       |       |   |       |       |       |       |       |
 //          _____________________________________________________________________________________
-// tap      |   Z   |   X   |   C   |   V   |   B   |   |   O   |   0   |   1   |   2   |   3   |
+// tap      | HUEDN | SATDN | BRIDN | SPDN  |  EFR  |   |   O   |   0   |   1   |   2   |   3   |
 // hold     |  GUI  |       |       |       |       |   |       |       |       |       |  GUI  |
 //
 // tap                      |XXXXXXX|  ENT  |  TAB  |   | PLAY  | STOP  | MUTE  |
 // hold  LAYER              |XXXXXXX| (NAV) | (MOU) |   |       |       |       |
 
                         bindings = <
-&trans  &trans  &trans  &trans  &trans         &kp R             &kp M           &kp H         &kp S            &kp V        
-&trans  &trans  &trans  &trans  &trans         &kp E             &kp C_PREVIOUS  &kp C_VOL_DN  &kp C_VOLUME_UP  &kp K_NEXT   
-&trans  &trans  &trans  &trans  &trans         &kp O             &kp N0          &kp N1        &kp N2           &kp N3
-                &trans  &trans  &trans         &kp K_PLAY_PAUSE  &kp K_STOP      &kp K_MUTE
+&rgb_ug RGB_TOG  &trans           &trans           &trans           &trans                  &kp R             &kp M           &kp H         &kp S            &kp V        
+&rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &rgb_ug RGB_SPI  &rgb_ug RGB_EFF         &kp E             &kp C_PREVIOUS  &kp C_VOL_DN  &kp C_VOLUME_UP  &kp K_NEXT   
+&rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD  &rgb_ug RGB_EFR         &kp O             &kp N0          &kp N1        &kp N2           &kp N3
+                                  &trans           &trans           &trans                  &kp K_PLAY_PAUSE  &kp K_STOP      &kp K_MUTE
                         >;
                 };
 
