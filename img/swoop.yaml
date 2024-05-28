@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: bluebell/swoop}
 layers:
   Base:
-  - Q
+  - '&bl BL_TOG'
   - W
   - E
   - R
