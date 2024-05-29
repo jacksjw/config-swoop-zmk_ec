@@ -1,4 +1,4 @@
-Swoop Settings
+Swoop Keyboard
 =============== 
 
 This project is still being developed as I am polishing the keymap for something I really like. Comments and code might be unstructured or incorrect as changes are implemented.
@@ -9,7 +9,12 @@ mechanical keyboard.
  * QWERTY base layout
  * Modified Miryoku layout
  * moved GUI key to lower row due to many false activations
- * Added a row of combos and hold/tap delays to make better use of the 36 key layout    
+ * Added a row of combos and hold/tap delays to make better use of the 36 key layout
+
+## Case
+The case is the designed to mount the keyboard with an integrated plate. It also has some notches to allow for the addition of a partial gasket on the lower case. However, I have not tried it out yet.
+
+
 
 ![keymap image](img/temper.svg)
 
