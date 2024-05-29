@@ -6,12 +6,20 @@ This project is still being developed as I am polishing the keymap for something
 This is the repository to my [Swoop](https://github.com/jimmerricks/swoop) project. Adapted to run wirelessly through ZMK. It's a split wireless-only
 mechanical keyboard.
 
- * QWERTY base layout
- * Modified Miryoku layout
+**High level overview**
+
+ * 36-key split wireless keyboard
+ * MX switches
+ * Per-key LEDs
+ * Custom case, keeping wireless and wired builds in mind
+ * Case employs Integrated Mounting Style
+
+**Keymap overview**
+ * Modified Miryoku QWERTY layout
  * moved GUI key to lower row due to many false activations
  * Added a row of combos and hold/tap delays to make better use of the 36 key layout
 
-## Case
+## The Case
 The case is the designed to mount the keyboard with an integrated plate. It also has some notches to allow for the addition of a partial gasket on the lower case. However, I have not tried it out yet. 
 See image below for a general idea of the mounting profile. Only difference is that screws are put in from the top. Optional gasket is marked in orange:
 ![case_mount](pictures/mount.png)    
@@ -34,7 +42,7 @@ In order to print the Left/Right side respectively, simply mirror the parts in y
     * No Supports
     * 0.2mm layer height
 
-## Keymap
+## The Keymap
 ![keymap image](img/swoop.svg)
 
 
