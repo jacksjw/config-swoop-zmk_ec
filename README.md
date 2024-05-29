@@ -16,7 +16,7 @@ The case is the designed to mount the keyboard with an integrated plate. It also
 See image below for a general idea of the mounting profile. Only difference is that screws are put in from the top. Optional gasket is marked in orange:
 ![case_mount](pictures/mount.png)    
 
-How the integrated mount is executed in the case:
+How the integrated mount is executed in the case. The sectional view, shows the space I left for a gasket:
 ![case_section](pictures/Case_section.png)
 
 When assembling the case, adding in some M2x4x3.2 threaded inserts is recommended. M2x4 screws will hold the top frame in place. 
