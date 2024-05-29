@@ -37,7 +37,8 @@ When assembling the case, adding in some M2x4x3.2 threaded inserts is recommende
 ![case_pic](pictures/Case.png)
 
 ### Printing the case
-There are two case files. One is labelled 'Battery' and provides 4mm of additional space under the mounted PCB. In my build, that allowed me to add 'PL 385677' batteries on the underside of the case. These provide 2500mAh - enough to drive LEDs for a few hours.
+There are two case files. One is labelled 'Battery' and provides 4mm of additional space under the mounted PCB. In my build, that allowed me to add 'PL 385677' batteries on the underside of the PCB. These provide 2500mAh - enough to drive LEDs for a few hours. I simply taped them onto the PCB with painters tape.
+
 
 In order to print the Left/Right side respectively, simply mirror the parts in your slicer. 
 
