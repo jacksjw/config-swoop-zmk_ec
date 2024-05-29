@@ -22,7 +22,9 @@ mechanical keyboard.
 ## The Case
 The case is the designed to mount the keyboard with an integrated plate. It also has some notches to allow for the addition of a partial gasket on the lower case. However, I have not tried it out yet. 
 See image below for a general idea of the mounting profile. Only difference is that screws are put in from the top. Optional gasket is marked in orange:
+
 ![case_mount](pictures/mount.png)
+
 Image by [Thomas Bart](https://thomasbaart.nl/2019/04/07/cheat-sheet-custom-keyboard-mounting-styles/).
 
 How the integrated mount is executed in the case. The sectional view, shows the space I left for a gasket:
