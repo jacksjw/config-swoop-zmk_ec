@@ -29,7 +29,7 @@ See image below for a general idea of the mounting profile. Only difference is t
 
 
 
-The follwoing image shows how the integrated mount is executed. The sectional view also shows the space I left for a gasket:
+The follwoing shows how the integrated mount is executed. The sectional view also shows the space I left for a gasket:
 ![case_section](pictures/Case_section.png)
 
 When assembling the case, adding in some M2x4x3.2 threaded inserts is recommended. M2x4 screws will hold the top frame in place. 
