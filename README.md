@@ -3,7 +3,7 @@ Swoop Settings
 
 This project is still being developed as I am polishing the keymap for something I really like. Comments and code might be unstructured or incorrect as changes are implemented.
 
-Controlling my [Swoop](https://github.com/jimmerricks/swoop), a split wireless-only
+This is the repository to my [Swoop](https://github.com/jimmerricks/swoop) project. Adapted to run wirelessly through ZMK. It's a split wireless-only
 mechanical keyboard.
 
  * QWERTY base layout
