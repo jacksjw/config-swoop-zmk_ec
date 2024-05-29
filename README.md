@@ -12,10 +12,18 @@ mechanical keyboard.
  * Added a row of combos and hold/tap delays to make better use of the 36 key layout
 
 ## Case
-The case is the designed to mount the keyboard with an integrated plate. It also has some notches to allow for the addition of a partial gasket on the lower case. However, I have not tried it out yet.
+The case is the designed to mount the keyboard with an integrated plate. It also has some notches to allow for the addition of a partial gasket on the lower case. However, I have not tried it out yet. 
+See image below for a general idea of the mounting profile. Only difference is that screws are put in from the top. Optional gasket is marked in orange:
+![case_mount](pictures/mount.png)    
 
+How the integrated mount is executed in the case:
+![case_section](pictures/Case_section.png)
 
+When assembling the case, adding in some M2x4x3.2 threaded inserts is recommended. M2x4 screws will hold the top frame in place. 
+**However**, if you do not have any inserts; I did leave the screw holes at a smaller diameter further down. So if using longer screws (8-10mm), you should be able to get by without inserts.
+![case_pic](pictures/Case.png)
 
+## Keymap
 ![keymap image](img/temper.svg)
 
 
