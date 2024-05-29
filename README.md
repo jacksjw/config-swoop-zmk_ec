@@ -25,7 +25,8 @@ See image below for a general idea of the mounting profile. Only difference is t
 
 ![case_mount](pictures/mount.png)
 
-Image by [Thomas Bart](https://thomasbaart.nl/2019/04/07/cheat-sheet-custom-keyboard-mounting-styles/).
+>Image by [Thomas Baart](https://thomasbaart.nl/2019/04/07/cheat-sheet-custom-keyboard-mounting-styles/).
+
 
 
 The follwoing image shows how the integrated mount is executed. The sectional view also shows the space I left for a gasket:
