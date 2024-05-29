@@ -24,7 +24,7 @@ When assembling the case, adding in some M2x4x3.2 threaded inserts is recommende
 ![case_pic](pictures/Case.png)
 
 ## Keymap
-![keymap image](img/temper.svg)
+![keymap image](img/swoop.svg)
 
 
 ## Building
