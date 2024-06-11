@@ -146,12 +146,12 @@ ZMK_COMBO(apos, &kp APOS, RM3 RM4, DEF, COMBO_TERM_SLOW)
         quick-tap-ms = <250>;
 };
 
-/ {
-
 #add custom pin for nice view
 &nice_view_spi {
     cs-gpios = <&gpio1 1 GPIO_ACTIVE_HIGH>;
 };
+
+/ {
 
         keymap {
                 compatible = "zmk,keymap";
