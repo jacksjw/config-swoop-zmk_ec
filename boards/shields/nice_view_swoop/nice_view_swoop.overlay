@@ -5,10 +5,10 @@
  */
 
 &nice_view_spi {
+    cs-gpios = <&gpio1 01 GPIO_ACTIVE_HIGH>;
     status = "okay";
     nice_view: ls0xx@0 {
         compatible = "sharp,ls0xx";
-        cs-gpios = <&gpio1 01 GPIO_ACTIVE_HIGH>;
         spi-max-frequency = <1000000>;
         reg = <0>;
         width = <160>;
