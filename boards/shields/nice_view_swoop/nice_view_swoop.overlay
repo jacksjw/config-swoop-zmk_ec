@@ -5,6 +5,7 @@
  */
 
 &nice_view_spi {
+    cs-gpios = <&gpio1 1 GPIO_ACTIVE_HIGH>;
     status = "okay";
     nice_view: ls0xx@0 {
         compatible = "sharp,ls0xx";
@@ -12,6 +13,7 @@
         reg = <0>;
         width = <160>;
         height = <68>;
+};
     };
 };
 
