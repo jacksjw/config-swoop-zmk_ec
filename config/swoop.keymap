@@ -40,6 +40,11 @@
 #define COMBO_TERM_FAST 10
 #define COMBO_TERM_SLOW 50
 
+#add custom pin for nice view
+&nice_view_spi {
+    cs-gpios = <&gpio1 1 GPIO_ACTIVE_HIGH>;
+};
+
 // CAPS WORD
 // -----------------------------------------------------------------------------------------
 // tap      |   Q   |   W   |   E   |   R   |   T   |   |   Y   |   U   |   I   |   O   |   P   |
