@@ -7,6 +7,7 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
 / {
+
     chosen {
         zephyr,display = &oled;
         zmk,kscan = &kscan0;
@@ -33,6 +34,7 @@ RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4)  RC(2,5) RC(2,6) RC(2,7) RC(2,8) RC(2,9)
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-matrix";
         label = "KSCAN";
+        wakeup-source;
 
         diode-direction = "col2row";
         row-gpios
@@ -42,6 +44,29 @@ RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4)  RC(2,5) RC(2,6) RC(2,7) RC(2,8) RC(2,9)
             , <&pro_micro 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
 
+    };
+
+
+    left_encoder: encoder_left {
+        compatible = "alps,ec11";
+        a-gpios = <&pro_micro 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        b-gpios = <&pro_micro 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        steps = <80>;
+        status = "disabled";
+    };
+    
+    right_encoder: encoder_right {
+        compatible = "alps,ec11";
+        a-gpios = <&pro_micro 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        b-gpios = <&pro_micro 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        steps = <80>;
+        status = "disabled";
+    };
+    
+    sensors: sensors {
+        compatible = "zmk,keymap-sensors";
+        sensors = <&left_encoder &right_encoder>;
+        triggers-per-rotation = <20>;
     };
 };
 
@@ -64,6 +89,5 @@ RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4)  RC(2,5) RC(2,6) RC(2,7) RC(2,8) RC(2,9)
         prechargep = <0x22>;
         inversion-on;
     };
+
 };
-
-
