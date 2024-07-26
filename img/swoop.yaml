@@ -72,7 +72,7 @@ layers:
   - {t: SPACE, h: Gnum}
   - {t: ENTER, h: Mou}
   - {t: ENTER, h: Sym}
-  - {t: Sft+ BACKSPACE, h: Num}
+  - {t: BACKSPACE, h: Num}
   - {t: DELETE, h: Fun}
   Gnum:
   - '1'
