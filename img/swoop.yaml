@@ -20,7 +20,7 @@ layers:
   - {t: J, h: RSHIFT}
   - {t: K, h: RCTRL}
   - {t: L, h: RIGHT ALT}
-  - {t: ;, h: ''''}
+  - ;
   - {t: Z, h: LEFT GUI}
   - X
   - C
@@ -32,10 +32,10 @@ layers:
   - .
   - {t: /, h: RIGHT GUI}
   - {t: ESCAPE, h: Med}
-  - {t: ENTER, h: Nav}
+  - {t: SPACE, h: Nav}
   - {t: TAB, h: Mou}
-  - {t: BACKSPACE, h: Sym}
-  - {t: SPACE, h: Num}
+  - {t: ENTER, h: Sym}
+  - {t: BACKSPACE, h: Num}
   - {t: DELETE, h: Fun}
   Game:
   - TAB
@@ -69,10 +69,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ESCAPE, h: M}
-  - {t: ENTER, h: Gnum}
-  - {t: SPACE, h: Mou}
-  - {t: BACKSPACE, h: Sym}
-  - {t: SPACE, h: Num}
+  - {t: SPACE, h: Gnum}
+  - {t: ENTER, h: Mou}
+  - {t: ENTER, h: Sym}
+  - {t: Sft+ BACKSPACE, h: Num}
   - {t: DELETE, h: Fun}
   Gnum:
   - '1'
@@ -179,7 +179,7 @@ layers:
   - DOWN
   - RIGHT
   - PAGE DOWN
-  - BACKSPACE
+  - LEFT SHIFT
   - {type: held}
   - DEL
   - {t: ▽, type: trans}
@@ -221,7 +221,7 @@ layers:
   - {type: held}
   - '&mkp LCLK'
   - '&mkp MCLK'
-  - '&mkp MB2'
+  - '&mkp RCLK'
   Sym:
   - '{'
   - '&'
@@ -233,7 +233,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ':'
+  - '"'
   - $
   - '%'
   - ^
@@ -270,7 +270,7 @@ layers:
   - '8'
   - '9'
   - '*'
-  - ;
+  - ''''
   - '4'
   - '5'
   - '6'
@@ -334,27 +334,36 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
 combos:
-- p: [13, 16]
-  k: '&caps_word'
-  l: [Base]
 - p: [0, 1]
   k: F5
   l: [Base]
-- p: [24, 23]
-  k: Ctl+ V
-  l: [Base]
-- p: [23, 22]
-  k: Ctl+ C
-  l: [Base]
-- p: [22, 21]
-  k: Ctl+ X
-  l: [Base]
-- p: [2, 1]
+- p: [1, 2]
   k: Ctl+ Z
   l: [Base]
-- p: [3, 2]
+- p: [2, 3]
   k: Ctl+ Y
   l: [Base]
 - p: [18, 19]
   k: ''''
+  l: [Base]
+- p: [21, 22]
+  k: Ctl+ X
+  l: [Base]
+- p: [22, 23]
+  k: Ctl+ C
+  l: [Base]
+- p: [23, 24]
+  k: Ctl+ V
+  l: [Base]
+- p: [13, 16]
+  k: '-'
+  l: [Base]
+- p: [0, 20]
+  k: '&bootloader'
+  l: [Base]
+- p: [9, 29]
+  k: '&bootloader'
+  l: [Base]
+- p: [13, 14]
+  k: LEFT SHIFT
   l: [Base]
