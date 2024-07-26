@@ -243,10 +243,10 @@
             // hold  LAYER              |   M   | (GAN) | (MOU) |   | (SYM) | (NUM) | (FUN) |
 
             bindings = <
-&kp TAB       &kp Q           &kp W         &kp E          &kp R            &trans         &trans                 &trans          &trans  &trans
-&mt LSHIFT G  &kp A           &kp S         &kp D          &kp F            &trans         &trans                 &trans          &trans  &trans
-&kp LCTRL     &mt LEFT_ALT Z  &kp X         &kp C          &kp V            &trans         &trans                 &trans          &trans  &trans
-                              &mt M ESCAPE  &lt GAN SPACE  &lt MOU ENTER    &lt SYM ENTER  &lt NUM LS(BACKSPACE)  &lt FUN DELETE
+&kp TAB       &kp Q           &kp W         &kp E          &kp R            &trans         &trans             &trans          &trans  &trans
+&mt LSHIFT G  &kp A           &kp S         &kp D          &kp F            &trans         &trans             &trans          &trans  &trans
+&kp LCTRL     &mt LEFT_ALT Z  &kp X         &kp C          &kp V            &trans         &trans             &trans          &trans  &trans
+                              &mt M ESCAPE  &lt GAN SPACE  &lt MOU ENTER    &lt SYM ENTER  &lt NUM BACKSPACE  &lt FUN DELETE
             >;
         };
 
