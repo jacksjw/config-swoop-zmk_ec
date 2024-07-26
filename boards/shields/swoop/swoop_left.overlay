@@ -8,6 +8,8 @@
 #include <dt-bindings/led/led.h>
 
 &kscan0 {
+    wakeup-source;
+
     col-gpios
         = <&pro_micro 15 GPIO_ACTIVE_HIGH>
         , <&pro_micro 18 GPIO_ACTIVE_HIGH>
@@ -15,6 +17,10 @@
         , <&pro_micro 20 GPIO_ACTIVE_HIGH>
         , <&pro_micro 21 GPIO_ACTIVE_HIGH>
         ;
+};
+
+&left_encoder {
+    status = "okay";
 };
 
 &pinctrl {
@@ -56,5 +62,3 @@
                           LED_COLOR_ID_BLUE>;
   };
 };
-
-
