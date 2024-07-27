@@ -154,11 +154,11 @@ layers:
   - '8'
   - '9'
   - +
-  - Ctl+ Z
-  - Ctl+ X
-  - Ctl+ C
-  - Ctl+ V
-  - Ctl+ Y
+  - Gui+ Z
+  - Gui+ X
+  - Gui+ C
+  - Gui+ V
+  - Gui+Sft+ Z
   - /
   - {t: '4', h: LEFT ALT}
   - {t: '5', h: LCTRL}
@@ -182,8 +182,8 @@ layers:
   - LEFT SHIFT
   - {type: held}
   - DEL
-  - TAB
-  - DELETE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Mou:
   - Ctl+ Z
