@@ -238,21 +238,21 @@ layers:
   - '%'
   - ^
   - +
-  - {t: ▽, type: trans}
-  - DELETE
   - TAB
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - HOME
+  - UP ARROW
+  - END
+  - PAGE UP
   - '~'
   - '!'
   - '@'
   - '#'
   - '|'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - DELETE
+  - LEFT
+  - DOWN
+  - RIGHT
+  - PAGE DOWN
   - (
   - )
   - _
