@@ -228,7 +228,7 @@ layers:
   - '*'
   - (
   - '}'
-  - {t: ▽, type: trans}
+  - TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -238,7 +238,7 @@ layers:
   - '%'
   - ^
   - +
-  - TAB
+  - DELETE
   - HOME
   - UP ARROW
   - END
@@ -248,7 +248,7 @@ layers:
   - '@'
   - '#'
   - '|'
-  - DELETE
+  - INS
   - LEFT
   - DOWN
   - RIGHT
