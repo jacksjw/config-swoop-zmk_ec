@@ -324,10 +324,10 @@
             // hold  LAYER              |       |XXXXXXX|       |   | (SYM) | (NUM) | (FUN) |
 
             bindings = <
-&kp STAR             &kp N7           &kp N8          &kp N9             &kp PLUS     &kp LC(Z)     &kp LC(X)   &kp LC(C)     &kp LC(V)  &kp LC(Y)
-&kp SLASH            &mt LEFT_ALT N4  &mt LCTRL N5    &mt LEFT_SHIFT N6  &kp MINUS    &kp CAPSLOCK  &kp HOME    &kp UP_ARROW  &kp END    &kp PAGE_UP
-&mt LEFT_GUI PERIOD  &kp N1           &kp N2          &kp N3             &kp N0       &kp INSERT    &kp LEFT    &kp DOWN      &kp RIGHT  &kp PAGE_DOWN
-                                      &kp LEFT_SHIFT  &none              &kp DEL      &kp TAB       &kp DELETE  &trans
+&kp STAR             &kp N7           &kp N8          &kp N9             &kp PLUS     &kp LG(Z)     &kp LG(X)  &kp LG(C)     &kp LG(V)  &kp LG(LS(Z))
+&kp SLASH            &mt LEFT_ALT N4  &mt LCTRL N5    &mt LEFT_SHIFT N6  &kp MINUS    &kp CAPSLOCK  &kp HOME   &kp UP_ARROW  &kp END    &kp PAGE_UP
+&mt LEFT_GUI PERIOD  &kp N1           &kp N2          &kp N3             &kp N0       &kp INSERT    &kp LEFT   &kp DOWN      &kp RIGHT  &kp PAGE_DOWN
+                                      &kp LEFT_SHIFT  &none              &kp DEL      &trans        &trans     &trans
             >;
 
             sensor-bindings =
