@@ -31,9 +31,9 @@ layers:
   - ','
   - .
   - {t: /, h: RIGHT GUI}
-  - {t: ESCAPE, h: Med}
+  - {t: TAB, h: Med}
   - {t: SPACE, h: Nav}
-  - {t: TAB, h: Mou}
+  - {t: ESCAPE, h: Mou}
   - {t: ENTER, h: Sym}
   - {t: BACKSPACE, h: Num}
   - {t: DELETE, h: Fun}
@@ -114,8 +114,8 @@ layers:
   Med:
   - RGB TOG
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F14
+  - F15
   - {t: ▽, type: trans}
   - R
   - M
@@ -182,8 +182,8 @@ layers:
   - LEFT SHIFT
   - {type: held}
   - DEL
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - TAB
+  - DELETE
   - {t: ▽, type: trans}
   Mou:
   - Ctl+ Z
@@ -239,8 +239,8 @@ layers:
   - ^
   - +
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - DELETE
+  - TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '~'
@@ -356,7 +356,7 @@ combos:
   k: Ctl+ V
   l: [Base]
 - p: [13, 16]
-  k: '-'
+  k: '&bh_capsword'
   l: [Base]
 - p: [0, 20]
   k: '&bootloader'
