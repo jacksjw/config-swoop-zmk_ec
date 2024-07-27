@@ -378,10 +378,10 @@
             // hold  LAYER              |       |       |       |   |XXXXXXX| (NUM) | (FUN) |
 
             bindings = <
-&kp LEFT_BRACE     &kp AMPS  &kp STAR              &kp LEFT_PARENTHESIS   &kp RIGHT_BRACE    &trans  &trans      &trans   &trans  &trans
-&kp DOUBLE_QUOTES  &kp DLLR  &kp PERCENT           &kp CARET              &kp PLUS           &trans  &kp DELETE  &kp TAB  &trans  &trans
-&kp TILDE          &kp EXCL  &kp AT                &kp HASH               &kp PIPE           &trans  &trans      &trans   &trans  &trans
-                             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER          &none   &trans      &trans
+&kp LEFT_BRACE     &kp AMPS  &kp STAR              &kp LEFT_PARENTHESIS   &kp RIGHT_BRACE    &trans      &trans    &trans        &trans     &trans
+&kp DOUBLE_QUOTES  &kp DLLR  &kp PERCENT           &kp CARET              &kp PLUS           &kp TAB     &kp HOME  &kp UP_ARROW  &kp END    &kp PAGE_UP
+&kp TILDE          &kp EXCL  &kp AT                &kp HASH               &kp PIPE           &kp DELETE  &kp LEFT  &kp DOWN      &kp RIGHT  &kp PAGE_DOWN
+                             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER          &none       &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp F15 F14>;
