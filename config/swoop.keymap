@@ -230,9 +230,7 @@
                                 &lt MED TAB  &lt NAV SPACE     &lt MOU ESCAPE    &lt SYM ENTER  &lt NUM BACKSPACE  &lt FUN DELETE
             >;
 
-            sensor-bindings =
-                <&inc_dec_kp F15 F14>,
-                <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp UP DOWN>, <&inc_dec_kp RIGHT LEFT>;
         };
 
         gam_layer {
@@ -386,7 +384,7 @@
                              &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER          &none   &trans      &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(UP_ARROW) LC(DOWN_ARROW)>;
+            sensor-bindings = <&inc_dec_kp F15 F14>;
         };
 
         num_layer {
@@ -412,7 +410,7 @@
                         &kp PERIOD  &kp N0  &kp MINUS            &trans     &none   &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(RIGHT) LC(LEFT)>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
         fun_layer {
