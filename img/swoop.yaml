@@ -157,24 +157,24 @@ layers:
   - '='
   - '['
   - ']'
-  - \
-  - '`'
+  - /
+  - ','
   - {t: /, h: LEFT SHIFT}
   - {t: '4', h: LEFT ALT}
   - {t: '5', h: LCTRL}
   - {t: '6', h: LEFT SHIFT}
   - '-'
-  - '-'
-  - ','
-  - UP
+  - _
   - ''''
+  - UP
+  - '`'
   - {t: ;, h: RSHIFT}
   - {t: ., h: LEFT GUI}
   - '1'
   - '2'
   - '3'
   - '0'
-  - /
+  - \
   - LEFT
   - DOWN
   - RIGHT
@@ -205,7 +205,7 @@ layers:
   - '&mkp LCLK'
   - {t: ▽, type: trans}
   - '&mkp RCLK'
-  - PAGE UP
+  - {t: PAGE UP, h: RSHIFT}
   - PAGE DOWN
   - LEFT
   - DOWN
@@ -223,39 +223,39 @@ layers:
   - '&mkp MCLK'
   - '&mkp RCLK'
   Sym:
-  - '{'
+  - {t: ▽, type: trans}
   - '&'
   - '*'
   - (
-  - '}'
+  - )
   - TAB
   - VOLUME DOWN
   - VOLUME UP
   - F14
   - F15
-  - '"'
+  - {t: '~', h: LSHFT}
   - $
   - '%'
   - ^
-  - +
+  - '{'
   - INS
   - HOME
   - UP ARROW
   - END
-  - PAGE UP
-  - '~'
+  - {t: PAGE UP, h: RSHIFT}
+  - {t: ▽, type: trans}
   - '!'
   - '@'
   - '#'
-  - '|'
+  - '}'
   - DEL
   - LEFT
   - DOWN
   - RIGHT
   - PAGE DOWN
   - (
-  - )
-  - _
+  - '"'
+  - {t: '|', h: LCTRL}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
