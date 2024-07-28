@@ -178,7 +178,7 @@ layers:
   - LEFT
   - DOWN
   - RIGHT
-  - /
+  - '?'
   - LEFT SHIFT
   - {type: held}
   - DEL
