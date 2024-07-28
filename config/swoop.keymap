@@ -322,9 +322,9 @@
             // hold  LAYER              |       |XXXXXXX|       |   | (SYM) | (NUM) | (FUN) |
 
             bindings = <
-&kp STAR              &kp N7           &kp N8          &kp N9             &kp PLUS     &kp EQUAL        &kp LBKT                &kp RBKT  &kp BSLH   &kp GRAVE
-&mt LEFT_SHIFT SLASH  &mt LEFT_ALT N4  &mt LCTRL N5    &mt LEFT_SHIFT N6  &kp MINUS    &kp MINUS        &kp COMMA               &kp UP    &kp APOS   &mt RSHIFT SEMI
-&mt LEFT_GUI PERIOD   &kp N1           &kp N2          &kp N3             &kp N0       &kp FSLH         &kp LEFT                &kp DOWN  &kp RIGHT  &kp DOT
+&kp STAR              &kp N7           &kp N8          &kp N9             &kp PLUS     &kp EQUAL        &kp LBKT                &kp RBKT  &kp FSLH   &kp COMMA
+&mt LEFT_SHIFT SLASH  &mt LEFT_ALT N4  &mt LCTRL N5    &mt LEFT_SHIFT N6  &kp MINUS    &kp UNDERSCORE   &kp APOS                &kp UP    &kp GRAVE  &mt RSHIFT SEMI
+&mt LEFT_GUI PERIOD   &kp N1           &kp N2          &kp N3             &kp N0       &kp BSLH         &kp LEFT                &kp DOWN  &kp RIGHT  &kp DOT
                                        &kp LEFT_SHIFT  &none              &kp DEL      &mt LCTRL ENTER  &mt LEFT_ALT BACKSPACE  &trans
             >;
 
@@ -351,7 +351,7 @@
 
             bindings = <
 &kp LG(Z)           &kp LG(X)  &kp LG(C)     &kp LG(V)  &mt PRINTSCREEN LG(LS(Z))    &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(Y)
-&mt LSHIFT PAGE_UP  &kp HOME   &kp UP_ARROW  &kp END    &kp CAPSLOCK                 &kp LEFT   &mkp LCLK  &trans     &mkp RCLK  &kp PAGE_UP
+&mt LSHIFT PAGE_UP  &kp HOME   &kp UP_ARROW  &kp END    &kp CAPSLOCK                 &kp LEFT   &mkp LCLK  &trans     &mkp RCLK  &mt RSHIFT PAGE_UP
 &kp PAGE_DOWN       &kp LEFT   &kp DOWN      &kp RIGHT  &kp DEL                      &kp RIGHT  &trans     &trans     &trans     &kp PAGE_DOWN
                                &to DEF       &to GAM    &none                        &mkp LCLK  &mkp MCLK  &mkp RCLK
             >;
@@ -378,10 +378,10 @@
             // hold  LAYER              |       |       |       |   |XXXXXXX| (NUM) | (FUN) |
 
             bindings = <
-&kp LEFT_BRACE     &kp AMPS  &kp STAR              &kp LEFT_PARENTHESIS   &kp RIGHT_BRACE    &kp TAB  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp F14    &kp F15
-&kp DOUBLE_QUOTES  &kp DLLR  &kp PERCENT           &kp CARET              &kp PLUS           &kp INS  &kp HOME           &kp UP_ARROW     &kp END    &kp PAGE_UP
-&kp TILDE          &kp EXCL  &kp AT                &kp HASH               &kp PIPE           &kp DEL  &kp LEFT           &kp DOWN         &kp RIGHT  &kp PAGE_DOWN
-                             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER          &none    &trans             &trans
+&trans           &kp AMPS  &kp STAR              &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp TAB  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp F14    &kp F15
+&mt LSHFT TILDE  &kp DLLR  &kp PERCENT           &kp CARET             &kp LEFT_BRACE           &kp INS  &kp HOME           &kp UP_ARROW     &kp END    &mt RSHIFT PAGE_UP
+&trans           &kp EXCL  &kp AT                &kp HASH              &kp RIGHT_BRACE          &kp DEL  &kp LEFT           &kp DOWN         &kp RIGHT  &kp PAGE_DOWN
+                           &kp LEFT_PARENTHESIS  &kp DOUBLE_QUOTES     &mt LCTRL PIPE           &none    &trans             &trans
             >;
 
             sensor-bindings = <&inc_dec_kp F15 F14>;
