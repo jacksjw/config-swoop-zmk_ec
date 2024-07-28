@@ -350,10 +350,10 @@
             // hold  LAYER              | [DEF] | [GAM] |XXXXXXX|   |       |       |       |
 
             bindings = <
-&kp LG(Z)           &kp LG(X)  &kp LG(C)     &kp LG(V)  &mt PRINTSCREEN LG(Y)    &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(Y)
-&mt LSHIFT PAGE_UP  &kp HOME   &kp UP_ARROW  &kp END    &kp CAPSLOCK             &kp LEFT   &mkp LCLK  &trans     &mkp RCLK  &kp PAGE_UP
-&kp PAGE_DOWN       &kp LEFT   &kp DOWN      &kp RIGHT  &kp DEL                  &kp RIGHT  &trans     &trans     &trans     &kp PAGE_DOWN
-                               &to DEF       &to GAM    &none                    &mkp LCLK  &mkp MCLK  &mkp RCLK
+&kp LG(Z)           &kp LG(X)  &kp LG(C)     &kp LG(V)  &mt PRINTSCREEN LG(LS(Z))    &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(Y)
+&mt LSHIFT PAGE_UP  &kp HOME   &kp UP_ARROW  &kp END    &kp CAPSLOCK                 &kp LEFT   &mkp LCLK  &trans     &mkp RCLK  &kp PAGE_UP
+&kp PAGE_DOWN       &kp LEFT   &kp DOWN      &kp RIGHT  &kp DEL                      &kp RIGHT  &trans     &trans     &trans     &kp PAGE_DOWN
+                               &to DEF       &to GAM    &none                        &mkp LCLK  &mkp MCLK  &mkp RCLK
             >;
 
             sensor-bindings =
