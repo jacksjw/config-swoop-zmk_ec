@@ -157,8 +157,8 @@ layers:
   - '='
   - '['
   - ']'
-  - /
   - ','
+  - .
   - {t: /, h: LEFT SHIFT}
   - {t: '4', h: LEFT ALT}
   - {t: '5', h: LCTRL}
@@ -178,7 +178,7 @@ layers:
   - LEFT
   - DOWN
   - RIGHT
-  - .
+  - /
   - LEFT SHIFT
   - {type: held}
   - DEL
@@ -223,7 +223,7 @@ layers:
   - '&mkp MCLK'
   - '&mkp RCLK'
   Sym:
-  - {t: ▽, type: trans}
+  - <
   - '&'
   - '*'
   - (
@@ -243,7 +243,7 @@ layers:
   - UP ARROW
   - END
   - {t: PAGE UP, h: RSHIFT}
-  - {t: ▽, type: trans}
+  - '>'
   - '!'
   - '@'
   - '#'
