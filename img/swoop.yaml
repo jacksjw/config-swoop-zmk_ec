@@ -190,7 +190,7 @@ layers:
   - Gui+ X
   - Gui+ C
   - Gui+ V
-  - {t: Gui+ Y, h: PRINTSCREEN}
+  - {t: Gui+Sft+ Z, h: PRINTSCREEN}
   - Ctl+ Z
   - Ctl+ X
   - Ctl+ C
