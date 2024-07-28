@@ -350,10 +350,10 @@
             // hold  LAYER              | [DEF] | [GAM] |XXXXXXX|   |       |       |       |
 
             bindings = <
-&kp LG(Z)      &kp LG(X)  &kp LG(C)     &kp LG(V)  &mt PRINTSCREEN LG(Y)    &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(Y)
-&kp PAGE_UP    &kp HOME   &kp UP_ARROW  &kp END    &kp CAPSLOCK             &kp LEFT   &mkp LCLK  &trans     &mkp RCLK  &kp PAGE_UP
-&kp PAGE_DOWN  &kp LEFT   &kp DOWN      &kp RIGHT  &kp INSERT               &kp RIGHT  &trans     &trans     &trans     &kp PAGE_DOWN
-                          &to DEF       &to GAM    &none                    &mkp LCLK  &mkp MCLK  &mkp RCLK
+&kp LG(Z)           &kp LG(X)  &kp LG(C)     &kp LG(V)  &mt PRINTSCREEN LG(Y)    &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(Y)
+&mt LSHIFT PAGE_UP  &kp HOME   &kp UP_ARROW  &kp END    &kp CAPSLOCK             &kp LEFT   &mkp LCLK  &trans     &mkp RCLK  &kp PAGE_UP
+&kp PAGE_DOWN       &kp LEFT   &kp DOWN      &kp RIGHT  &kp DEL                  &kp RIGHT  &trans     &trans     &trans     &kp PAGE_DOWN
+                               &to DEF       &to GAM    &none                    &mkp LCLK  &mkp MCLK  &mkp RCLK
             >;
 
             sensor-bindings =
@@ -378,10 +378,10 @@
             // hold  LAYER              |       |       |       |   |XXXXXXX| (NUM) | (FUN) |
 
             bindings = <
-&kp LEFT_BRACE     &kp AMPS  &kp STAR              &kp LEFT_PARENTHESIS   &kp RIGHT_BRACE    &kp TAB     &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp F14    &kp F15
-&kp DOUBLE_QUOTES  &kp DLLR  &kp PERCENT           &kp CARET              &kp PLUS           &kp DELETE  &kp HOME           &kp UP_ARROW     &kp END    &kp PAGE_UP
-&kp TILDE          &kp EXCL  &kp AT                &kp HASH               &kp PIPE           &kp INS     &kp LEFT           &kp DOWN         &kp RIGHT  &kp PAGE_DOWN
-                             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER          &none       &trans             &trans
+&kp LEFT_BRACE     &kp AMPS  &kp STAR              &kp LEFT_PARENTHESIS   &kp RIGHT_BRACE    &kp TAB  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp F14    &kp F15
+&kp DOUBLE_QUOTES  &kp DLLR  &kp PERCENT           &kp CARET              &kp PLUS           &kp INS  &kp HOME           &kp UP_ARROW     &kp END    &kp PAGE_UP
+&kp TILDE          &kp EXCL  &kp AT                &kp HASH               &kp PIPE           &kp DEL  &kp LEFT           &kp DOWN         &kp RIGHT  &kp PAGE_DOWN
+                             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER          &none    &trans             &trans
             >;
 
             sensor-bindings = <&inc_dec_kp F15 F14>;
