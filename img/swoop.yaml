@@ -196,7 +196,7 @@ layers:
   - Ctl+ C
   - Ctl+ V
   - Ctl+ Y
-  - PAGE UP
+  - {t: PAGE UP, h: LSHIFT}
   - HOME
   - UP ARROW
   - END
@@ -210,7 +210,7 @@ layers:
   - LEFT
   - DOWN
   - RIGHT
-  - INSERT
+  - DEL
   - RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -238,7 +238,7 @@ layers:
   - '%'
   - ^
   - +
-  - DELETE
+  - INS
   - HOME
   - UP ARROW
   - END
@@ -248,7 +248,7 @@ layers:
   - '@'
   - '#'
   - '|'
-  - INS
+  - DEL
   - LEFT
   - DOWN
   - RIGHT
