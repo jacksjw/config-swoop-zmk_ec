@@ -322,10 +322,10 @@
             // hold  LAYER              |       |XXXXXXX|       |   | (SYM) | (NUM) | (FUN) |
 
             bindings = <
-&kp STAR              &kp N7           &kp N8          &kp N9             &kp PLUS     &kp EQUAL        &kp LBKT                &kp RBKT  &kp COMMA  &kp DOT
-&mt LEFT_SHIFT SLASH  &mt LEFT_ALT N4  &mt LCTRL N5    &mt LEFT_SHIFT N6  &kp MINUS    &kp UNDERSCORE   &kp APOS                &kp UP    &kp GRAVE  &mt RSHIFT SEMI
-&mt LEFT_GUI PERIOD   &kp N1           &kp N2          &kp N3             &kp N0       &kp BSLH         &kp LEFT                &kp DOWN  &kp RIGHT  &kp QUESTION
-                                       &kp LEFT_SHIFT  &none              &kp DEL      &mt LCTRL ENTER  &mt LEFT_ALT BACKSPACE  &trans
+&kp STAR             &kp N7           &kp N8          &kp N9             &kp PLUS     &kp EQUAL        &kp LBKT                &kp RBKT  &kp COMMA  &kp DOT
+&kp SLASH            &mt LEFT_ALT N4  &mt LCTRL N5    &mt LEFT_SHIFT N6  &kp MINUS    &kp UNDERSCORE   &mt RSHIFT APOS         &kp UP    &kp GRAVE  &kp SEMI
+&mt LEFT_GUI PERIOD  &kp N1           &kp N2          &kp N3             &kp N0       &kp BSLH         &kp LEFT                &kp DOWN  &kp RIGHT  &kp QUESTION
+                                      &kp LEFT_SHIFT  &none              &kp DEL      &mt LCTRL ENTER  &mt LEFT_ALT BACKSPACE  &trans
             >;
 
             sensor-bindings =
