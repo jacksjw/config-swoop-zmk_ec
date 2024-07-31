@@ -159,16 +159,16 @@ layers:
   - ']'
   - ','
   - .
-  - {t: /, h: LEFT SHIFT}
+  - /
   - {t: '4', h: LEFT ALT}
   - {t: '5', h: LCTRL}
   - {t: '6', h: LEFT SHIFT}
   - '-'
   - _
-  - ''''
+  - {t: '''', h: RSHIFT}
   - UP
   - '`'
-  - {t: ;, h: RSHIFT}
+  - ;
   - {t: ., h: LEFT GUI}
   - '1'
   - '2'
