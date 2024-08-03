@@ -196,7 +196,7 @@ layers:
   - Ctl+ C
   - Ctl+ V
   - Ctl+ Y
-  - {t: PAGE UP, h: LSHIFT}
+  - PAGE UP
   - HOME
   - UP ARROW
   - END
@@ -205,7 +205,7 @@ layers:
   - '&mkp LCLK'
   - {t: ▽, type: trans}
   - '&mkp RCLK'
-  - {t: PAGE UP, h: RSHIFT}
+  - PAGE UP
   - PAGE DOWN
   - LEFT
   - DOWN
@@ -233,16 +233,16 @@ layers:
   - VOLUME UP
   - F14
   - F15
-  - {t: '~', h: LSHFT}
+  - '~'
   - $
   - '%'
-  - ^
+  - {t: ^, h: LSHIFT}
   - '{'
   - INS
-  - HOME
+  - {t: HOME, h: RSHIFT}
   - UP ARROW
   - END
-  - {t: PAGE UP, h: RSHIFT}
+  - PAGE UP
   - '>'
   - '!'
   - '@'
