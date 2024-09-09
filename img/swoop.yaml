@@ -182,8 +182,8 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: TAB, h: RIGHT ALT}
-  - {t: RETURN, h: RIGHT GUI}
+  - {t: TAB, h: LEFT GUI}
+  - {t: RETURN, h: RIGHT ALT}
   - RCTRL
   Mou:
   - Gui+ Z
@@ -291,8 +291,8 @@ layers:
   - RIGHT
   - PRINTSCREEN
   - LCTRL
-  - {t: SPACE, h: LEFT GUI}
-  - {t: CAPS, h: LEFT ALT}
+  - {t: SPACE, h: Sft+ LEFT ALT}
+  - {t: CAPS, h: LEFT GUI}
   - {t: ▽, type: trans}
   - {type: held}
   - DEL
