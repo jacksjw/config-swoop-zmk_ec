@@ -322,10 +322,10 @@
             // hold  LAYER              |       |XXXXXXX|       |   | (SYM) | (NUM) | (FUN) |
 
             bindings = <
-&kp STAR             &kp N7           &kp N8        &kp N9             &kp PLUS     &kp EQUAL          &kp LEFT_BRACE           &kp RIGHT_BRACE         &kp DOUBLE_QUOTES  &kp PIPE
-&kp SLASH            &mt LEFT_ALT N4  &mt LCTRL N5  &mt LEFT_SHIFT N6  &kp MINUS    &kp UNDERSCORE     &mt RSHIFT LEFT_BRACKET  &mt RCTRL LEFT_BRACKET  &mt RIGHT_ALT SQT  &kp BACKSLASH
-&mt LEFT_GUI PERIOD  &kp N1           &kp N2        &kp N3             &kp N0       &trans             &kp GRAVE                &kp TILDE               &trans             &kp LS(LG(N5))
-                                      &trans        &none              &trans       &mt RIGHT_ALT TAB  &mt RIGHT_GUI RETURN     &kp RCTRL
+&kp STAR             &kp N7           &kp N8        &kp N9             &kp PLUS     &kp EQUAL         &kp LEFT_BRACE           &kp RIGHT_BRACE         &kp DOUBLE_QUOTES  &kp PIPE
+&kp SLASH            &mt LEFT_ALT N4  &mt LCTRL N5  &mt LEFT_SHIFT N6  &kp MINUS    &kp UNDERSCORE    &mt RSHIFT LEFT_BRACKET  &mt RCTRL LEFT_BRACKET  &mt RIGHT_ALT SQT  &kp BACKSLASH
+&mt LEFT_GUI PERIOD  &kp N1           &kp N2        &kp N3             &kp N0       &trans            &kp GRAVE                &kp TILDE               &trans             &kp LS(LG(N5))
+                                      &trans        &none              &trans       &mt LEFT_GUI TAB  &mt RIGHT_ALT RETURN     &kp RCTRL
             >;
 
             sensor-bindings =
@@ -404,10 +404,10 @@
             // hold  LAYER              |       |       |       |   | (SYM) |XXXXXXX| (FUN) |
 
             bindings = <
-&kp STAR  &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp PLUS                 &kp EQUAL      &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp F14    &kp F15
-&kp FSLH  &kp DOLLAR       &kp PERCENT   &kp CARET             &kp MINUS                &kp PAGE_UP    &kp HOME           &kp UP_ARROW     &kp END    &trans
-&kp DOT   &kp EXCLAMATION  &kp AT_SIGN   &kp HASH              &kp RIGHT_PARENTHESIS    &kp PAGE_DOWN  &kp LEFT           &kp DOWN         &kp RIGHT  &kp PRINTSCREEN
-                           &kp LCTRL     &mt LEFT_GUI SPACE    &mt LEFT_ALT CAPS        &trans         &none              &kp DEL
+&kp STAR  &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS    &kp PLUS                 &kp EQUAL      &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp F14    &kp F15
+&kp FSLH  &kp DOLLAR       &kp PERCENT   &kp CARET               &kp MINUS                &kp PAGE_UP    &kp HOME           &kp UP_ARROW     &kp END    &trans
+&kp DOT   &kp EXCLAMATION  &kp AT_SIGN   &kp HASH                &kp RIGHT_PARENTHESIS    &kp PAGE_DOWN  &kp LEFT           &kp DOWN         &kp RIGHT  &kp PRINTSCREEN
+                           &kp LCTRL     &mt LS(LEFT_ALT) SPACE  &mt LEFT_GUI CAPS        &trans         &none              &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
