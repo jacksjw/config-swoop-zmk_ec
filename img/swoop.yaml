@@ -31,12 +31,12 @@ layers:
   - ','
   - .
   - {t: /, h: RIGHT GUI}
-  - {t: TAB, h: Med}
+  - {t: LEFT, h: Med}
   - {t: SPACE, h: Nav}
   - {t: ESCAPE, h: Mou}
   - {t: DELETE, h: Sym}
   - {t: BACKSPACE, h: Num}
-  - {t: CAPSLOCK, h: Fun}
+  - {t: RIGHT, h: Fun}
   Game:
   - TAB
   - Q
