@@ -34,7 +34,7 @@ layers:
   - {t: TAB, h: Med}
   - {t: SPACE, h: Nav}
   - {t: ESCAPE, h: Mou}
-  - {t: ENTER, h: Sym}
+  - {t: LEFT SHIFT, h: Sym}
   - {t: BACKSPACE, h: Num}
   - {t: DELETE, h: Fun}
   Game:
@@ -155,36 +155,36 @@ layers:
   - '9'
   - +
   - '='
-  - '['
-  - ']'
-  - ','
-  - .
+  - Sft+ [
+  - Sft+ ]
+  - Sft+ '
+  - Sft+ \
   - /
   - {t: '4', h: LEFT ALT}
   - {t: '5', h: LCTRL}
   - {t: '6', h: LEFT SHIFT}
   - '-'
   - _
-  - {t: '''', h: RSHIFT}
-  - UP
-  - '`'
-  - ;
+  - {t: '[', h: RSHIFT}
+  - ']'
+  - ''''
+  - \
   - {t: ., h: LEFT GUI}
   - '1'
   - '2'
   - '3'
   - '0'
-  - \
-  - LEFT
-  - DOWN
-  - RIGHT
-  - '?'
-  - LEFT SHIFT
-  - {type: held}
-  - DEL
-  - {t: ENTER, h: LCTRL}
-  - {t: BACKSPACE, h: LEFT ALT}
   - {t: ▽, type: trans}
+  - '`'
+  - Sft+ `
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: TAB, h: RIGHT ALT}
+  - {t: RETURN, h: RIGHT GUI}
+  - RCTRL
   Mou:
   - Gui+ Z
   - Gui+ X
@@ -260,68 +260,68 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Num:
-  - '['
-  - '7'
-  - '8'
-  - '9'
-  - ']'
-  - +
-  - '7'
-  - '8'
-  - '9'
   - '*'
-  - ''''
-  - '4'
-  - '5'
-  - '6'
+  - '&'
+  - '*'
+  - (
+  - +
   - '='
-  - '-'
-  - '4'
-  - '5'
-  - '6'
+  - VOLUME DOWN
+  - VOLUME UP
+  - F14
+  - F15
   - /
-  - '`'
-  - '1'
-  - '2'
-  - '3'
-  - \
-  - '0'
-  - '1'
-  - '2'
-  - '3'
-  - .
-  - .
-  - '0'
+  - $
+  - '%'
+  - ^
   - '-'
+  - PAGE UP
+  - HOME
+  - UP ARROW
+  - END
+  - {t: ▽, type: trans}
+  - .
+  - '!'
+  - '@'
+  - '#'
+  - )
+  - PAGE DOWN
+  - LEFT
+  - DOWN
+  - RIGHT
+  - {t: ▽, type: trans}
+  - LCTRL
+  - {t: SPACE, h: LEFT GUI}
+  - {t: CAPS, h: LEFT ALT}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
+  - DEL
   Fun:
-  - F12
+  - {t: ▽, type: trans}
   - F7
   - F8
   - F9
-  - PRINTSCREEN
+  - F12
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - F11
+  - {t: ▽, type: trans}
   - F4
   - F5
   - F6
-  - SCROLLLOCK
+  - F11
   - {t: BT DISC, h: '0'}
   - {t: BT DISC, h: '1'}
   - {t: BT DISC, h: '2'}
   - {t: BT DISC, h: '3'}
   - {t: BT DISC, h: '4'}
-  - F10
+  - {t: ▽, type: trans}
   - F1
   - F2
   - F3
-  - PAUSE BREAK
+  - F10
   - OUT BLE
   - OUT USB
   - {t: ▽, type: trans}
